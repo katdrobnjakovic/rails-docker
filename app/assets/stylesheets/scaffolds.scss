@@ -1,9 +1,31 @@
-body {
-  background-color: #fff;
+html, body {
+  background: -webkit-linear-gradient(left top, #ff00ff, #00ffff ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ff00ff, #00ffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ff00ff, #00ffff ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ff00ff, #00ffff ); /* Standard syntax */
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  height: 100%;
+}
+
+h1, h2, h3 {
+  color: #ccff99;
+  text-align: center;
+}
+
+.field {
+  text-align: center;
+}
+
+.actions {
+  text-align: center;
+}
+
+th {
+  color: #fff;
+  font-size: large;
 }
 
 p, ol, ul, td {
@@ -19,15 +41,15 @@ pre {
 }
 
 a {
-  color: #000;
+  color: #fff;
 
   &:visited {
-    color: #666;
+    color: #ccff99;
   }
 
   &:hover {
     color: #fff;
-    background-color: #000;
+    font-size: large;
   }
 }
 
@@ -38,7 +60,8 @@ div {
 }
 
 #notice {
-  color: green;
+  color: #ccff99;
+  font-size: large;
 }
 
 .field_with_errors {
