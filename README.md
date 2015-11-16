@@ -11,9 +11,9 @@ Install docker: http://docs.docker.com/mac/started/ This will also install the f
 - Oracle VM VirtualBox
 
 # Run the docker container and check out the :sparkles: app
-1. Open the docker command line via the Docker Quickstart Terminal icon
-2. Clone this repo
-3. cd into the repo `cd rails-docker`
+1. Clone this repo
+2. cd into the repo `cd rails-docker`
+3. Open the docker command line via the Docker Quickstart Terminal icon
 4. Run migrations via `docker-compose run web rake db:migrate`
 5. Run `docker-compose up` to build and run the two containers (web and db)
 6. Go to `http://localhost:3000` :eyes:
