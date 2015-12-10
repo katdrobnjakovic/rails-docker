@@ -1,4 +1,5 @@
 <%= form_for(@post) do |f| %>
+  <!-- if there are any errors from the validation show message and do not save post -->
   <% if @post.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
@@ -13,6 +14,7 @@
 
   <div class="field">
     <h2><%= f.label :title %></h2>
+    <!-- add maxlength on the title input to set the allowed max of characters -->
     <%= f.text_field :title, maxlength: 50, size: 50 %>
   </div>
   <div class="field">

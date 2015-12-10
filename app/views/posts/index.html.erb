@@ -1,6 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Posts</h1>
+  <!-- display each post -->
   <% @posts.each do |post| %>
     <h2><%= link_to post.title, post %></h2>
   <% end %>
