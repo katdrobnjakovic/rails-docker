@@ -1,2 +1,0 @@
-  [1m[36m (114.3ms)[0m  [1mDROP DATABASE IF EXISTS "myapp_test"[0m
-  [1m[35m (263.6ms)[0m  CREATE DATABASE "myapp_test" ENCODING = 'unicode'
